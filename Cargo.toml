@@ -1,0 +1,10 @@
+[package]
+name = "taski-shell"
+version = "0.1.0"
+publish = false
+authors = [ "Yusuke Sasaki <yusuke.sasaki.nuem@gmail.com>" ]
+edition = "2018"
+
+[dependencies]
+bitflags = "1.0.4"
+fakeenv = { version = "0.1.0", default-features = false, features = [ "fake" ] }
